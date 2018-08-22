@@ -1,0 +1,123 @@
+.main{
+  height: 211pt;
+  width: 100%;
+  position: fixed;
+  top: 9pt;
+  background-color: white;
+  border-top: 1pt solid #eeeeee;
+  border-bottom: 1pt solid #eeeeee;
+}
+
+.contentReceiverImage {
+  width: 19pt;
+  height: 19pt;
+  margin-left: 12pt;
+  margin-right: 12pt;
+}
+.fontSet{
+  font-size: 13pt;
+  color: #f0eff5;
+}
+page{
+  background-color: white;
+}
+.contentReceiverItem {
+  display: flex;
+  width: 100%;
+  height: 43pt;
+  flex-direction: row;
+  align-items: center;
+  border-top: 0.1px solid #eeeeee;
+  border-bottom: 0.1px solid #eeeeee;
+}
+.location{
+  width: 100%;
+  position: fixed;
+  left: 43pt;
+  height: 43pt;
+   border-top: 0.5px solid #eeeeee;
+  border-bottom: 0.5px solid #eeeeee;
+
+}
+.text{
+  font-size: 13pt;
+  color: #f0eff5;
+}
+.deletefont{
+  font-size: 13pt;
+  color: #333;
+  vertical-align:middle ;
+}
+.savefont{
+  font-size: 13pt;
+  color: white;
+}
+.save{
+  margin: 0;
+  padding: 0;
+   /* height: 27pt; */
+  width: 125pt;
+  border:0.1px #d5d5d5 solid;
+  background-color: #3c8ae5;
+  position: fixed;
+  right: 12pt;
+  top: 300pt;
+  /* left: 185pt; */
+}
+.delete{
+  margin: 0;
+  padding: 0;
+  vertical-align:middle ;
+  /* height: 27pt; */
+  width: 125pt;
+  border:1pt #d5d5d5 solid;
+  position: fixed;
+  left: 12pt;
+  top: 300pt;
+  right: 197pt;
+  margin-right: 12pt;
+  }
+
+.input {
+  padding-top: 300rpx;
+  width: 100%;
+}
+
+.input input {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px #d9d9d9 solid;
+  border-top: 1px #d9d9d9 solid;
+  padding: 20rpx 50rpx;
+}
+
+.section {
+  padding-top: 20rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.newAddr{
+  height: 40pt;
+  position: fixed;
+  bottom: 34pt;
+  left: 15pt;
+  right: 15pt;
+  background-color: #3c8ae5;
+  color: white;
+}
+page{
+  background-color: #f0eff5;
+}

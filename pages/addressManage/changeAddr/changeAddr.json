@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "修改地址",
+  "backgroundColor": "#f0eff5",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

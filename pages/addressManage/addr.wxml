@@ -1,0 +1,19 @@
+<view class='container'>
+  <view class='background'>
+    <view class='line' wx:for="{{userInfo}}" wx:for-index="idx">
+      <view class="userMessage">
+        <view class='lineone name'>{{item.receiverName}}</view>
+        <view class='lineone phone'>{{item.receiverPhone}}</view>
+        <view class='lineone id'>{{item.receiverId}}</view>
+        <view class='linetwo county'>{{item.province}}{{item.city}}{{item.county}}{{item.receiverDetailAddress}}</view>
+        <!-- <view class='linetwo city'>{{item.county}}</view>
+        <view class='linetwo detail'>{{item.receiverDetailAddress}}</view> -->
+        <image src='../../img/icon_07.png' id='{{idx}}' class='img' bindtap='change'></image>
+      </view>
+      <text catchtap='del' id='{{idx}}'>删除</text>
+    </view>
+  </view>
+  <image class='iconCss {{query}}' src='../../img/Tab_icon_22.png'></image>
+  <text class='fontSet {{query}}'>您还没有收货地址</text>
+  <button class='newAddr' catchtap='addAddr'>新增地址</button>
+</view>

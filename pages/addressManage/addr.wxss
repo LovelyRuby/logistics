@@ -1,0 +1,106 @@
+.iconCss {
+  width: 31pt;
+  height: 31pt;
+  position: fixed;
+  top: 100pt;
+}
+
+.fontSet {
+  font-size: 12pt;
+  color: #bbb;
+  position: fixed;
+  top: 134pt;
+}
+
+.newAddr {
+  height: 40pt;
+  position: fixed;
+  bottom: 34pt;
+  left: 15pt;
+  right: 15pt;
+  background-color: #3c8ae5;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.background {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 10pt;
+}
+
+.line {
+  height: 70pt;
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1pt #ddd;
+  /* flex-direction: row; *//* align-items: center; */
+  position: relative;
+}
+
+.img {
+  width: 19pt;
+  height: 19pt;
+  margin-left: 220pt;
+  position: absolute;
+  top: 28pt;
+  bottom: 28pt;
+  right: 20pt;
+  /* margin-right: 20pt; */
+}
+
+.lineone {
+  font-size: 13pt;
+  color: #333;
+}
+
+.linetwo {
+  font-size: 12pt;
+  color: #999;
+}
+
+.name {
+  position: absolute;
+  top: 15pt;
+  left: 12pt;
+}
+
+.phone {
+  position: absolute;
+  top: 15pt;
+  left: 48pt;
+}
+
+.id {
+  position: absolute;
+  top: 15pt;
+  left: 145pt;
+}
+
+.county {
+  position: absolute;
+  bottom: 15pt;
+  left: 12pt;
+}
+
+.province {
+  position: absolute;
+  bottom: 15pt;
+  left: 48pt;
+}
+
+.city {
+  position: absolute;
+  bottom: 15pt;
+  left: 84pt;
+}
+
+.detail {
+  position: absolute;
+  bottom: 15pt;
+  left: 120pt;
+}

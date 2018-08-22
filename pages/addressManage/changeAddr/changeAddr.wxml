@@ -1,0 +1,49 @@
+<form bindsubmit='finish'>
+  <view class='main'>
+    <view class='contentReceiverItem'>
+      <image class='contentReceiverImage' src='../../../img/icon_16.png'></image>
+      <input class=' ' maxlength='4' name='receiverName' value='{{userName}}'  auto-focus='autofocus'></input>
+    </view>
+
+    <view class='contentReceiverItem'>
+      <image class='contentReceiverImage' src='../../../img/icon_13.png'></image>
+
+      <input class=' ' maxlength='11' name='receiverPhone' value='{{phoneNumber}}' placeholder='手机号'></input>
+    </view>
+    <view class='contentReceiverItem'>
+      <image class='contentReceiverImage' src='../../../img/icon_11.png'></image>
+
+      <input class=' ' maxlength='18' name='receiverId' value='{{idCard}}' placeholder='身份证号'></input>
+    </view>
+    <view class='contentReceiverItem'>
+      <image class='contentReceiverImage' src='../../../img/icon_09.png'></image>
+      <input placeholder='省-市-区' value="{{sheng}}-{{shi}}-{{qu}}" focus="{{focus}}" bindfocus="open" maxlength='30'></input>
+    </view>
+    <view class='contentReceiverItem'>
+      <input class='location' name='receiverDetailAddress' value='{{detail}}' placeholder='详细地址'></input>
+    </view>
+  </view>
+
+
+  <button class='newAddr' form-type='submit'>
+    <text class='savefont'>保存</text>
+  </button>
+
+  <view wx:if="{{condition}}" class="citypicker">
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange" class="citybody">
+      <view class="cityheader">
+        <view bindtap="open" class="city-cancel">取消</view>
+        <view bindtap="open" class="city-true">确定</view>
+      </view>
+      <picker-view-column>
+        <view wx:for="{{provinces}}" wx:key="item" style="line-height: 50px;padding-left:10px;">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{citys}}" wx:key="item" style="line-height: 50px;padding-left:10px;">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{countys}}" wx:key="item" style="line-height: 50px;padding-left:10px;">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</form>
